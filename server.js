@@ -93,4 +93,4 @@ setInterval(() => wss.clients.forEach(c => { // elimina connessioni morte
   c.alive = false; c.ping();
 }), 30000);
 
-server.listen(PORT, () => console.log('MT COMPANY server su porta ' + PORT));
+server.listen(PORT, () => console.
